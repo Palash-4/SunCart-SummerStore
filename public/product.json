@@ -7,7 +7,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.ibb.co/6Jk8kzJ/sunglasses.png",
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
     "category": "Accessories"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.5,
     "stock": 25,
     "description": "Lightweight cotton t-shirt designed for hot summer days.",
-    "image": "https://i.ibb.co/ZYW3VTp/tshirt.png",
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
     "category": "Clothing"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.8,
     "stock": 30,
     "description": "High protection sunscreen to keep your skin safe from UV rays.",
-    "image": "https://i.ibb.co/7p0n4qS/sunscreen.png",
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
     "category": "Skincare"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.3,
     "stock": 15,
     "description": "Comfortable and stylish slippers for beach and casual use.",
-    "image": "https://i.ibb.co/W3sK9Qb/slippers.png",
+    "image": "/img/slipper.jpg",
     "category": "Footwear"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.6,
     "stock": 20,
     "description": "Classic straw hat to protect you from the summer sun.",
-    "image": "https://i.ibb.co/Yc5XkXh/hat.png",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
     "category": "Accessories"
   },
   {
@@ -62,51 +62,7 @@
     "rating": 4.4,
     "stock": 12,
     "description": "Spacious and trendy beach bag for all your essentials.",
-    "image": "https://i.ibb.co/8xB5G7R/bag.png",
+    "image": "https://images.unsplash.com/photo-1598300056393-4aac492f4344",
     "category": "Accessories"
-  },
-  {
-    "id": 7,
-    "name": "Summer Shorts",
-    "brand": "CoolWear",
-    "price": 18,
-    "rating": 4.5,
-    "stock": 20,
-    "description": "Comfortable and breathable shorts for hot summer days.",
-    "image": "https://i.ibb.co/2YgYQkK/shorts.png",
-    "category": "Clothing"
-  },
-  {
-    "id": 8,
-    "name": "Hydrating Face Mist",
-    "brand": "SkinCare+",
-    "price": 14,
-    "rating": 4.6,
-    "stock": 18,
-    "description": "Refreshing face mist to keep your skin hydrated all day.",
-    "image": "https://i.ibb.co/6X9bVwT/facemist.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 9,
-    "name": "Beach Towel",
-    "brand": "SunStyle",
-    "price": 16,
-    "rating": 4.4,
-    "stock": 22,
-    "description": "Soft and absorbent towel perfect for beach and poolside.",
-    "image": "https://i.ibb.co/Z8y3hFQ/towel.png",
-    "category": "Accessories"
-  },
-  {
-    "id": 10,
-    "name": "Flip Flops",
-    "brand": "WalkEasy",
-    "price": 12,
-    "rating": 4.3,
-    "stock": 25,
-    "description": "Lightweight flip flops for casual summer wear.",
-    "image": "https://i.ibb.co/1rZfXrK/flipflop.png",
-    "category": "Footwear"
   }
 ]
