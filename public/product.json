@@ -51,7 +51,7 @@
     "rating": 4.4,
     "stock": 12,
     "description": "Spacious and trendy beach bag for all your essentials.",
-    "image": "https://images.unsplash.com/photo-1598300056393-4aac492f4344",
+    "image": "/img/beg.jpg",
     "category": "Accessories"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.5,
     "stock": 20,
     "description": "Comfortable and breathable shorts for hot summer days.",
-    "image": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7",
+    "image": "/img/shorts.jpg",
     "category": "Clothing"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.4,
     "stock": 22,
     "description": "Soft and absorbent towel perfect for beach and poolside.",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "image": "/img/tawel.jpg",
     "category": "Accessories"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.3,
     "stock": 25,
     "description": "Lightweight flip flops for casual summer wear.",
-    "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb",
+    "image": "/img/flip.jpg",
     "category": "Footwear"
   },
   {
@@ -95,22 +95,11 @@
     "rating": 4.7,
     "stock": 8,
     "description": "Large beach umbrella for sun protection and shade.",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "image": "/img/umr.jpg",
     "category": "Accessories"
   },
   {
     "id": 10,
-    "name": "Cooling Water Bottle",
-    "brand": "HydroCool",
-    "price": 14,
-    "rating": 4.5,
-    "stock": 40,
-    "description": "Insulated water bottle to keep drinks cool during summer.",
-    "image": "https://images.unsplash.com/photo-1526406915894-7bcd65f60845",
-    "category": "Accessories"
-  },
-  {
-    "id": 11,
     "name": "UV Protection Sunglasses",
     "brand": "SunShade",
     "price": 15,
@@ -121,7 +110,7 @@
     "category": "Accessories"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Hydrating Face Mist",
     "brand": "SkinCare+",
     "price": 14,
