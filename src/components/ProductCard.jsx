@@ -5,9 +5,9 @@ import { FaStar } from "react-icons/fa";
 
 const ProductCard = ({ data }) => {
     return (
-        <Card className="group p-3 shadow-md hover:shadow-2xl transition duration-300 rounded-2xl">
+        <Card className="group p-3 sm:p-4 shadow-md hover:shadow-2xl transition duration-300 rounded-2xl">
 
-            <div className="relative w-full aspect-square rounded-xl">
+            <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] overflow-hidden rounded-xl">
                 <Image
                     src={data.image}
                     
