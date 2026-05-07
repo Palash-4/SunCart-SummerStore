@@ -1,17 +1,6 @@
 [
   {
     "id": 1,
-    "name": "UV Protection Sunglasses",
-    "brand": "SunShade",
-    "price": 15,
-    "rating": 4.7,
-    "stock": 10,
-    "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
-    "category": "Accessories"
-  },
-  {
-    "id": 2,
     "name": "Summer Cotton T-Shirt",
     "brand": "CoolWear",
     "price": 20,
@@ -22,7 +11,7 @@
     "category": "Clothing"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "SPF 50 Sunscreen",
     "brand": "SkinCare+",
     "price": 12,
@@ -33,7 +22,7 @@
     "category": "Skincare"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Beach Slippers",
     "brand": "WalkEasy",
     "price": 18,
@@ -44,18 +33,18 @@
     "category": "Footwear"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Straw Hat",
     "brand": "SunStyle",
     "price": 10,
     "rating": 4.6,
     "stock": 20,
     "description": "Classic straw hat to protect you from the summer sun.",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+    "image": "/img/hat.jpg",
     "category": "Accessories"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Beach Bag",
     "brand": "CarryGo",
     "price": 22,
@@ -66,7 +55,7 @@
     "category": "Accessories"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Summer Shorts",
     "brand": "CoolWear",
     "price": 18,
@@ -77,18 +66,7 @@
     "category": "Clothing"
   },
   {
-    "id": 8,
-    "name": "Hydrating Face Mist",
-    "brand": "SkinCare+",
-    "price": 14,
-    "rating": 4.6,
-    "stock": 18,
-    "description": "Refreshing face mist to keep your skin hydrated all day.",
-    "image": "https://images.unsplash.com/photo-1585386959984-a41552231658",
-    "category": "Skincare"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "name": "Beach Towel",
     "brand": "SunStyle",
     "price": 16,
@@ -99,7 +77,7 @@
     "category": "Accessories"
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Flip Flops",
     "brand": "WalkEasy",
     "price": 12,
@@ -110,7 +88,7 @@
     "category": "Footwear"
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "Beach Umbrella",
     "brand": "SunShield",
     "price": 30,
@@ -121,7 +99,7 @@
     "category": "Accessories"
   },
   {
-    "id": 12,
+    "id": 10,
     "name": "Cooling Water Bottle",
     "brand": "HydroCool",
     "price": 14,
@@ -130,5 +108,27 @@
     "description": "Insulated water bottle to keep drinks cool during summer.",
     "image": "https://images.unsplash.com/photo-1526406915894-7bcd65f60845",
     "category": "Accessories"
+  },
+  {
+    "id": 11,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "category": "Accessories"
+  },
+  {
+    "id": 12,
+    "name": "Hydrating Face Mist",
+    "brand": "SkinCare+",
+    "price": 14,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Refreshing face mist to keep your skin hydrated all day.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+    "category": "Skincare"
   }
 ]
