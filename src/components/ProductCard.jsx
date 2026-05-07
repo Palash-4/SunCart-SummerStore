@@ -1,4 +1,4 @@
-import { Card } from "@heroui/react";
+import { Card, Chip } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
@@ -7,13 +7,17 @@ const ProductCard = ({ data }) => {
     return (
         <Card className="group p-3 shadow-md hover:shadow-2xl transition duration-300 rounded-2xl">
 
-            <div className="relative w-[160px] h-[160px] overflow-hidden rounded-xl">
+            <div className="relative w-full aspect-square rounded-xl">
                 <Image
                     src={data.image}
-                    alt={data.name}
+                    
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt={data.name}
                     className="object-cover object-center"
                 />
+                <Chip size="sm" className="absolute top-2 right-2 " >{data.category}</Chip>
+
             </div>
 
             <div className="mt-4 space-y-2">
@@ -22,7 +26,7 @@ const ProductCard = ({ data }) => {
                     {data.name}
                 </h2>
 
-                <p className="text-yellow-500 text-sm font-medium">
+                <p className="text-yellow-500 text-sm font-medium flex gap-1">
                     <FaStar /> {data.rating} / 5
                 </p>
 
@@ -32,7 +36,7 @@ const ProductCard = ({ data }) => {
 
                 <Link
                     href={`/products/${data.id}`}
-                    className="block text-center mt-3 bg-primary text-white py-2 rounded-xl hover:bg-primary/90 transition"
+                    className="block text-center mt-3 bg-gray-400 text-white py-2 rounded-xl hover:bg-gray-800 transition"
                 >
                     View Details
                 </Link>
