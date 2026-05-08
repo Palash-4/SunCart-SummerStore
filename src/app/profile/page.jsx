@@ -17,7 +17,7 @@ const profilePage = () => {
                 <div className="flex flex-col md:flex-row items-center gap-6">
 
                     <div className="flex justify-center">
-                        <Avatar className='w-25 h-30'>
+                        <Avatar className='w-30 h-30'>
                             <Avatar.Image alt="John Doe"
                                 src={user?.image}
                                 referrerPolicy="no-referrer"
