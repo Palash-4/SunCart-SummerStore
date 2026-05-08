@@ -1,15 +1,18 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
+import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
-    const [user, setUser] = useState(null);
 
-    useEffect(() => {
-        setUser(null);
-    }, []);
+    const userData = authClient.useSession()
+    const user = userData.data?.user
 
+    const handleLogout= async ()=>{
+        await authClient.signOut()
+    }
     return (
         <div className="border-b px-2 bg-base-100">
             <nav className="flex justify-between items-center py-3 max-w-7xl mx-auto w-full">
@@ -25,23 +28,26 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex items-center gap-4">
-                    {!user ? (
+                    {!user &&
                         <>
                             <Link href="/login" className="btn btn-sm btn-outline">Login</Link>
                             <Link href="/register" className="btn btn-sm btn-primary">Register</Link>
                         </>
-                    ) : (
-                        <>
-                            <Image
-                                src={user?.image || "/user.png"}
-                                alt="user"
-                                width={35}
-                                height={35}
-                                className="rounded-full"
-                            />
-                            <button className="btn btn-sm btn-error">Logout</button>
-                        </>
-                    )}
+                    }
+
+                    {
+                        user && (
+                            <div className="flex gap-2">
+                                <Avatar
+                                    src={user?.image}
+                                    name={user?.name}
+                                    size="sm"
+                                />
+                                <Button onClick={handleLogout} size="sm" variant="danger">Logout</Button>
+                            </div>
+                        )
+                    }
+
                 </div>
 
             </nav>

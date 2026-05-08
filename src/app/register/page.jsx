@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Check } from "@gravity-ui/icons";
+import { GrGoogle } from "react-icons/gr";
 import {
     Button,
     Card,
@@ -43,7 +44,14 @@ const RegisterPage = () => {
         console.log(data);
         router.push("/");
 
+    };
 
+    const handleGoogleRegister = async () => {
+
+        await authClient.signIn.social({
+            provider: "google",
+            callbackURL: "/",
+        });
     };
 
     return (
@@ -165,6 +173,29 @@ const RegisterPage = () => {
 
                 </Form>
 
+                <div className="flex items-center gap-3 my-6">
+
+                    <div className="h-[1px] w-full bg-gray-200"></div>
+
+                    <p className="text-sm text-gray-500">
+                        OR
+                    </p>
+
+                    <div className="h-[1px] w-full bg-gray-200"></div>
+
+                </div>
+
+                <button
+                    onClick={handleGoogleRegister}
+                    className="w-full border border-gray-300 py-3 rounded-xl flex items-center justify-center gap-3 hover:bg-gray-100 transition font-medium"
+                >
+
+                    <GrGoogle className="text-lg" />
+
+                    Continue with Google
+
+                </button>
+
                 <p className="text-center text-sm text-gray-500 mt-6">
 
                     Already have an account?
@@ -177,7 +208,6 @@ const RegisterPage = () => {
                     </Link>
 
                 </p>
-
             </Card>
 
         </div>
