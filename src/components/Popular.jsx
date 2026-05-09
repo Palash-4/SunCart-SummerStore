@@ -10,7 +10,7 @@ const Popular = async () => {
     //Hello
     return (
         <div>
-            <h1 className='text-2xl font-bold my-5'>Popular Products</h1>
+            <h1 className='text-3xl font-bold text-center mb-10'>Popular Products</h1>
             
 
             <div className='grid grid-cols-3 gap-4'>

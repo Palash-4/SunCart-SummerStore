@@ -1,4 +1,4 @@
-# ☀️ SunCart – Summer Essentials Store
+# SunCart – Summer Essentials Store
 
 A modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare products, beach accessories, and more.
 
