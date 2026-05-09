@@ -1,36 +1,209 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ☀️ SunCart – Summer Essentials Store
 
-## Getting Started
+A modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare products, beach accessories, and more.
 
-First, run the development server:
+Built with **Next.js**, **Tailwind CSS**, **HeroUI**, **Better Auth**, and **MongoDB**.
+
+---
+
+# 🔗 Live Website
+
+Add your live link here:
+
+```bash
+https://sun-cart-summer-store.vercel.app/
+```
+
+---
+
+# 📂 GitHub Repository
+
+Add your GitHub repository link here:
+
+```bash
+https://github.com/Palash-4/SunCart-SummerStore
+```
+
+---
+
+# 🚀 Features
+
+## 🏠 Home Page
+
+* Modern responsive navbar
+* Summer-themed hero/banner section
+* Product showcase section
+* Responsive footer with quick links
+
+## 🛍 Product Features
+
+* Dynamic product cards
+* Product details page
+* Category badge/chip
+* Rating and pricing system
+* Responsive product layout
+
+## 🔐 Authentication Features
+
+* Email & Password Registration
+* Email & Password Login
+* Google Authentication
+* Protected Profile Route
+* Session Management with Better Auth
+* Toast Notifications
+
+## 👤 User Profile
+
+* User avatar display
+* User name and email
+* Responsive profile card
+* Protected profile page
+
+## 📱 Responsive Design
+
+* Mobile responsive navbar
+* Responsive product grid
+* Responsive authentication pages
+* Responsive footer
+* Optimized for desktop, tablet, and mobile devices
+
+---
+
+# 🧰 Technologies Used
+
+## Frontend
+
+* Next.js 15
+* React
+* Tailwind CSS
+* HeroUI
+* React Icons
+* Sonner Toast
+
+## Authentication
+
+* Better Auth
+* Google OAuth
+
+## Backend & Database
+
+* MongoDB Atlas
+
+---
+
+# 📦 NPM Packages Used
+
+```bash
+npm install @heroui/react
+npm install better-auth
+npm install mongodb
+npm install react-icons
+npm install sonner
+npm install @gravity-ui/icons
+```
+
+---
+
+# ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+BETTER_AUTH_SECRET=your_secret_key
+BETTER_AUTH_URL=http://localhost:3000
+
+MONGODB_URI=your_mongodb_uri
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
+
+---
+
+# 🖥️ Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+https://github.com/Palash-4/SunCart-SummerStore.git
+```
+
+## 2️⃣ Move into the Project Folder
+
+```bash
+cd suncart
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# 📁 Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+src/
+ ├── app/
+ │   ├── login/
+ │   ├── register/
+ │   ├── products/
+ │   ├── profile/
+ │   └── api/
+ │
+ ├── components/
+ │   ├── Navbar.jsx
+ │   ├── Footer.jsx
+ │   ├── Banner.jsx
+ │   ├── Popular.jsx
+ │   ├── UpdateProfile.jsx
+ │   └── ProductCard.jsx
+ │
+ ├── lib/
+ │   ├── auth.js
+ │   └── auth-client.js
+ │
+public/
+ ├── logo.jpg
+ ├── img/
+ └── product.json
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 🔒 Authentication System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses **Better Auth** for:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Email/Password Authentication
+* Google Login
+* Session Handling
+* Protected Routes
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🎯 Project Objective
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The goal of this project is to create a modern, responsive, and user-friendly summer eCommerce platform where users can browse products, authenticate securely, and view product details easily.
+
+---
+
+# 👨‍💻 Developer
+
+**Name:** Hasan Al Tarek Palash
+
+**Email:** hasanaltarekpalash@gmail.com
+
+---
+
+# 📜 License
+
+This project is created for educational purposes.
