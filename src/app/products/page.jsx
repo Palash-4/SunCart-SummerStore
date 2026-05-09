@@ -6,7 +6,7 @@ const AllProducts =async () => {
 
     return (
         <div>
-            <h1 className='text-2xl font-bold my-4'>Products</h1>
+            <h1 className='text-3xl font-bold text-center my-4 animate__animated animate__fadeInDown animate__slow '>Products</h1>
             <div className="grid grid-cols-4 gap-4">
                 {data.map(data=> <ProductCard key={data.id } data={data}></ProductCard>)}
             </div>
