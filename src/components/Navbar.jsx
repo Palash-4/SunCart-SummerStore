@@ -14,19 +14,19 @@ const Navbar = () => {
     }
     return (
         <div className="border-b px-2 bg-base-100">
-            <nav className="flex justify-between items-center py-3 max-w-7xl mx-auto w-full">
+            <nav className="flex flex-col md:flex-row justify-between items-center gap-4 py-3 max-w-7xl mx-auto w-full">
                 <div className="flex gap-2 items-center">
                     <Image src="/logo.jpg" alt="logo" width={35} height={35} />
                     <h3 className="font-bold text-xl text-primary">SunCart</h3>
                 </div>
 
-                <ul className="flex items-center gap-6 text-sm font-medium">
+                <ul className="flex flex-wrap justify-center items-center gap-4 md:gap-6 text-sm font-medium">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/products">Products</Link></li>
                     <li><Link href="/profile">My Profile</Link></li>
                 </ul>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-3 flex-wrap justify-center">
                     {!user &&
                         <>
                             <Link href="/login" className="btn btn-sm btn-outline">Login</Link>
