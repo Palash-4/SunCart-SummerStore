@@ -50,7 +50,6 @@ export function UpdateProfileModal() {
                                 </form>
                             </Surface>
                         </Modal.Body>
-
                     </Modal.Dialog>
                 </Modal.Container>
             </Modal.Backdrop>
