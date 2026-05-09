@@ -6,20 +6,21 @@ import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
 import { BiEdit, BiUser } from "react-icons/bi";
 
 export function UpdateProfileModal() {
-
     const onSubmit = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
         const name = e.target.name.value;
         const image = e.target.image.value;
 
         await authClient.updateUser({
             name,
-            image
-        })
-    }
+            image,
+        });
+    };
     return (
         <Modal>
-            <Button variant="secondary"><BiEdit></BiEdit> Update Profile</Button>
+            <Button variant="secondary">
+                <BiEdit></BiEdit> Update Profile
+            </Button>
             <Modal.Backdrop>
                 <Modal.Container placement="auto">
                     <Modal.Dialog className="sm:max-w-md">
@@ -45,7 +46,9 @@ export function UpdateProfileModal() {
                                         <Button slot="close" variant="secondary">
                                             Cancel
                                         </Button>
-                                        <Button type="submit" slot="close">Save</Button>
+                                        <Button type="submit" slot="close">
+                                            Save
+                                        </Button>
                                     </Modal.Footer>
                                 </form>
                             </Surface>
