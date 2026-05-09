@@ -2,13 +2,11 @@
 
 A modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare products, beach accessories, and more.
 
-Built with **Next.js**, **Tailwind CSS**, **HeroUI**, **Better Auth**, and **MongoDB**.
+Built with **Next.js**, **Tailwind CSS**, **HeroUI**, **Better Auth**, **Animate.css**, and **MongoDB**.
 
 ---
 
 # 🔗 Live Website
-
-Add your live link here:
 
 ```bash
 https://sun-cart-summer-store.vercel.app/
@@ -17,8 +15,6 @@ https://sun-cart-summer-store.vercel.app/
 ---
 
 # 📂 GitHub Repository
-
-Add your GitHub repository link here:
 
 ```bash
 https://github.com/Palash-4/SunCart-SummerStore
@@ -32,7 +28,9 @@ https://github.com/Palash-4/SunCart-SummerStore
 
 * Modern responsive navbar
 * Summer-themed hero/banner section
-* Product showcase section
+* Popular products section
+* Summer Care Tips section
+* Top Brands section
 * Responsive footer with quick links
 
 ## 🛍 Product Features
@@ -67,6 +65,11 @@ https://github.com/Palash-4/SunCart-SummerStore
 * Responsive footer
 * Optimized for desktop, tablet, and mobile devices
 
+## ✨ Animation
+
+* Animate.css integrated
+* Smooth section animation effects
+
 ---
 
 # 🧰 Technologies Used
@@ -79,6 +82,7 @@ https://github.com/Palash-4/SunCart-SummerStore
 * HeroUI
 * React Icons
 * Sonner Toast
+* Animate.css
 
 ## Authentication
 
@@ -100,6 +104,7 @@ npm install mongodb
 npm install react-icons
 npm install sonner
 npm install @gravity-ui/icons
+npm install animate.css
 ```
 
 ---
@@ -110,11 +115,13 @@ Create a `.env` file in the root directory and add:
 
 ```env
 BETTER_AUTH_SECRET=your_secret_key
+
 BETTER_AUTH_URL=http://localhost:3000
 
 MONGODB_URI=your_mongodb_uri
 
 GOOGLE_CLIENT_ID=your_google_client_id
+
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 ```
 
@@ -125,13 +132,13 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 ## 1️⃣ Clone the Repository
 
 ```bash
-https://github.com/Palash-4/SunCart-SummerStore.git
+git clone https://github.com/Palash-4/SunCart-SummerStore.git
 ```
 
 ## 2️⃣ Move into the Project Folder
 
 ```bash
-cd suncart
+cd SunCart-SummerStore
 ```
 
 ## 3️⃣ Install Dependencies
@@ -152,29 +159,51 @@ npm run dev
 
 ```bash
 src/
- ├── app/
- │   ├── login/
- │   ├── register/
- │   ├── products/
- │   ├── profile/
- │   └── api/
- │
- ├── components/
- │   ├── Navbar.jsx
- │   ├── Footer.jsx
- │   ├── Banner.jsx
- │   ├── Popular.jsx
- │   ├── UpdateProfile.jsx
- │   └── ProductCard.jsx
- │
- ├── lib/
- │   ├── auth.js
- │   └── auth-client.js
- │
+├── app/
+│   ├── api/
+│   │   └── auth/
+│   │       └── [...all]/
+│   │           └── route.js
+│   │
+│   ├── login/
+│   │   └── page.jsx
+│   │
+│   ├── register/
+│   │   └── page.jsx
+│   │
+│   ├── products/
+│   │   ├── [id]/
+│   │   │   └── page.jsx
+│   │   └── page.jsx
+│   │
+│   ├── profile/
+│   │   └── page.jsx
+│   │
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+│
+├── components/
+│   ├── Banner.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   ├── Popular.jsx
+│   ├── ProductCard.jsx
+│   ├── SummerCareTips.jsx
+│   ├── TopBrands.jsx
+│   └── updateProfile.jsx
+│
+├── lib/
+│   ├── auth.js
+│   └── auth-client.js
+│
+├── proxy.js
+│
 public/
- ├── logo.jpg
- ├── img/
- └── product.json
+├── logo.jpg
+├── img/
+└── product.json
 ```
 
 ---
